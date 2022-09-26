@@ -28,6 +28,9 @@ const stopwatch = () => {
 };
 
 const startStopwatch = () => {
+if(interval){
+return 
+}
   interval = setInterval(stopwatch, 1000);
 };
 const stopStopwatch = () => {
